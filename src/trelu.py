@@ -1,4 +1,4 @@
-#import torch.nn.functional as F  #likely you don't need but just in case, uncomment
+import torch.nn.functional as F  #likely you don't need but just in case, uncomment
 
 class TRelu(nn.Module):
     def __init__(self, threshold= - .25, mean_shift=-.03):
